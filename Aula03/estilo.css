@@ -1,0 +1,49 @@
+/* ID usa # e é único no html */
+#flexbox1{
+  background-color: #f0f8ff;
+  padding: 15px;
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CLASS usa . e pode ser reutilizado no HTML */
+.bloco-1{
+  background-color:#db2888;  
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.bloco-2{
+    background-color:#bd1971;  
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 16px;
+  }
+  
+  .bloco-3{
+    background-color:#790543;  
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 16px;
+  }
+
+  #flexbox2{
+    background-color: #abcbe6;
+    padding: 15px;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    flex: wrap;
+}
+
+  
